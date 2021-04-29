@@ -89,6 +89,7 @@ https://linuxize.com/post/how-to-install-apache-maven-on-centos-7/
 <br />
 
 # 7. 젠킨스 설치
+https://pkg.jenkins.io/redhat-stable/
 https://linuxize.com/post/how-to-install-jenkins-on-centos-7/
 https://www.vultr.com/docs/how-to-install-jenkins-on-centos-7
 
