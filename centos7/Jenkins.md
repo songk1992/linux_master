@@ -12,7 +12,46 @@ sudo yum install wget
 
 5. IP 고정
 
-6. 자바 설치
+
+# 6. 자바 설치
+
+```
+yum install java-1.8.0-openjdk-devel.x86_64
+```
+
+자바 환경변수 설정
+
+
+위치 확인
+```
+readlink -f /usr/bin/javac
+```
+
+위치 예시
+```
+/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+```
+
+여기 열어서 수정
+```
+vi /etc/profile
+```
+
+문구 예시
+```
+export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64
+```
+
+```
+source /etc/profile
+```
+
+확인
+```
+echo $JAVA_HOME
+```
+
+
 https://blog.jiniworld.me/88
 
 7. 깃
