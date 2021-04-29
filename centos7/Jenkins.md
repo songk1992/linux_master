@@ -19,6 +19,7 @@ https://blog.jiniworld.me/88
 https://linuxize.com/post/how-to-install-git-on-centos-7/
 
 7. 톰캣
+https://linuxize.com/post/how-to-install-tomcat-9-on-centos-7/
 https://linuxize.com/post/how-to-install-tomcat-8-5-on-centos-7/
 
 7. 메이븐 설치
