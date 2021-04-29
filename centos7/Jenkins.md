@@ -1,17 +1,34 @@
-1.
-sudo yum update
+# 참고자료
 
-2. 타임존 변경
+
+# 1 업데이트 부터
+
+```
+sudo yum update
+```
+
+
+# 2. 타임존 변경
+```
 sudo rm /etc/localtime
 sudo ln -s /usr/share/zoneinfo/Asia/Seoul /etc/localtime
+```
+확인
+```
+date
+```
 
-3. Host 네임 변경
+# 3. Host 네임 변경
 
-4. wget  설치
+# 4. wget  설치(편의상)
+```
 sudo yum install wget
+```
 
 5. IP 고정
 
+
+<br />
 
 # 6. 자바 설치
 
@@ -51,22 +68,31 @@ source /etc/profile
 echo $JAVA_HOME
 ```
 
+<br />
 
 https://blog.jiniworld.me/88
 
-7. 깃
+# 7. 깃
 https://linuxize.com/post/how-to-install-git-on-centos-7/
 
-7. 톰캣
+<br />
+
+# 7. 톰캣
 https://linuxize.com/post/how-to-install-tomcat-9-on-centos-7/
 https://linuxize.com/post/how-to-install-tomcat-8-5-on-centos-7/
 
-7. 메이븐 설치
+<br />
+
+# 7. 메이븐 설치
 https://linuxize.com/post/how-to-install-apache-maven-on-centos-7/
 
-7. 젠킨스 설치
+<br />
+
+# 7. 젠킨스 설치
+https://linuxize.com/post/how-to-install-jenkins-on-centos-7/
 https://www.vultr.com/docs/how-to-install-jenkins-on-centos-7
 
+<br />
 
 # 자바
 export JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-1.el7_9.x86_64
